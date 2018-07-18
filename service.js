@@ -1,4 +1,4 @@
-var text =' {
+{
   "services" : [
   {
     "name": "Quick Tune",
@@ -27,7 +27,4 @@ var text =' {
    
   }
  ]
-}';
-obj = JSON.parse(text);
-    var services = document.getElementById('demo').innerHTML=obj.sevices.name[0].name+" "+obj.services[0].price+"<br> "+ obj.services[0].description;
-       
+}
